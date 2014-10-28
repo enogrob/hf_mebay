@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-  <meta charset="UTF-8">
-  <title><%= @ad.name %></title>
-</head>
-    <body>
-    <p><b>Name:</b><%= @ad.name %></p>
-    <p><b>Description:</b><%= @ad.descripttion %></p>
-    <p><b>Price:</b><%= @ad.price %></p>
-    <p><b>Seller Id:</b><%= @ad.seller_id %></p>
-    <p><b>Email:</b><%= @ad.email %></p>
-    </body>
-</html>
+<h1><%= @ad.name %></h1>
+≈<p><b>Name:</b><%= @ad.name %></p>
+<p><b>Description:</b><%= @ad.descripttion %></p>
+<p><b>Price:</b><%= @ad.price %></p>
+<p><b>Seller Id:</b><%= @ad.seller_id %></p>
+<p><b>Email:</b><%= @ad.email %></p>
+
+<p><%= link_to 'Back', ads_path %></p>
+
+
